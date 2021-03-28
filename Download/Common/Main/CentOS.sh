@@ -35,11 +35,11 @@ echo -e "\n"
 sudo cd /root
 yum groupinstall "X Window System" -y
 yum groupinstall "MATE Desktop" -y
-yum groupinstall "Chinese support" -y
-yum groups mark install "Chinese support" -y
-yum install cjkuni-ukai-fonts cjkuni-uming-fonts -y
-yum install fontforge -y
-yum install ibus-libpinyin im-chooser -y
+# yum groupinstall "Chinese support" -y
+# yum groups mark install "Chinese support" -y
+# yum install cjkuni-ukai-fonts cjkuni-uming-fonts -y
+# yum install fontforge -y
+# yum install ibus-libpinyin im-chooser -y
 # localectl set-locale LANG=zh_CN.UTF8
 echo "---------------------------------------------------------------------------------------------------------------------"
 echo -e "\033[32m Desktop environment is installed  is [OK] \033[0m"
